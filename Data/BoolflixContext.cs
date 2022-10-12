@@ -9,6 +9,7 @@ namespace csharp_boolflix.Data
         public DbSet<Movie>? Movies { get; set; }
         public DbSet<TvSerie>? TvSeries { get; set; }
         public DbSet<MediaLink>? MediaLinks { get; set; }
+        public DbSet<Episode>? Episodes { get; set; }
         public DbSet<Actor>? Actors { get; set; }
         public DbSet<Genre>? Genres { get; set; }
 
