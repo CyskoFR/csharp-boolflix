@@ -1,0 +1,26 @@
+﻿# Entitá (Entity Framework, Database, Model)
+
+- Profili;
+- Account;
+- ContenutoMultimediale (Media):
+	- Anno;
+	- Novitá(true|false);
+	- QualitáVideo;
+	- Pegi;
+	- Tipologia:
+		- SerieTv:
+			- Lista di episodi;
+			- Numero di stagioni;
+		- Film:
+			- Numero stagioni;
+
+	- Cast: Lista di attori;
+	- Generi: Lista di generi;
+	- Caratteristiche: Lista di caratteristiche;
+	- Valutazione:
+		- Non mi piace;
+		- Mi piace;
+		- Adoro;
+	- Compatibilitá con l'utente;
+
+# Interazioni (Controller, Navigazioni, Link, InterfacciaUtenteUI)
